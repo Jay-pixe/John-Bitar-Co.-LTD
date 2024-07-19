@@ -185,7 +185,7 @@ nav a:hover span {
 /*above ends the header*/
 
 #hero {
-  background: url('images/b6.jpg') center/cover no-repeat;
+  background: url('b6.jpg') center/cover no-repeat;
   color: #fff;
   text-align: center;
   padding: 50px 0;
