@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #0077B6;
+  background-color: #2772A0;
   z-index: 1000;
 }
 
@@ -212,13 +212,19 @@ label {
     font-weight: bold;
 }
 
-input, textarea {
+input {
     padding: 10px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
+textarea {
+  padding: 100px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 button {
     padding: 10px 20px;
     background-color: #333;
