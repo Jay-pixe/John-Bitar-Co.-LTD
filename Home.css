@@ -446,7 +446,7 @@ nav a:hover span {
 
 /*the demographics*/
 .company-info {
-  background: url('jcm.jpg') no-repeat center center/cover; /*added the blur effect from here to the info item*/
+  background: url('jcm.png') no-repeat center center/cover; /*added the blur effect from here to the info item*/
   position: relative;
   color: #fff;
   text-align: center;
