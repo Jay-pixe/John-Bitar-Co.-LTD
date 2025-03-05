@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #0077B6;
+  background-color: #2772A0;
   z-index: 1000;
 }
 
@@ -203,7 +203,7 @@ main.awards-container {
 
 .award img {
     width: 100%;
-    height: 200px; /* Set a fixed height or adjust as needed */
+    height: 300px; /* Set a fixed height or adjust as needed */
     object-fit: cover; /* Maintain image aspect ratio while covering the container */
     display: block;
     border-radius: 8px 8px 0 0;
