@@ -317,6 +317,60 @@ nav a:hover span {
   font-style: normal; /*added this google font to change the font*/
 }
 
+.left-content {
+  flex: 1;
+}
+
+.right-content {
+  flex: 1;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.image-item {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-item.large {
+  grid-column: span 2;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.image-item:hover img {
+  transform: scale(1.05);
+}
+
+.image-item p {
+  position: absolute;
+    bottom: 30px; /* Moves text slightly up */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7); /* Darker background for better readability */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: fit-content;
+    font-size: 14px;
+}
+
+
 .mission-header {
   font-size: 45px;
   margin-top: 20px;
@@ -375,12 +429,13 @@ nav a:hover span {
 
 /* Why Choose Us Section Styles */
 #why-choose-us {
+  margin-top: 5px;
   font-family: "Maven Pro", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal; /*added this google font to change the font*/
   background-color: #0096C7;
-  padding: 50px 0;
+  padding: 35px 0;
   text-align: center;
 }
 
@@ -446,7 +501,7 @@ nav a:hover span {
 
 /*the demographics*/
 .company-info {
-  background: url('jcm.png') no-repeat center center/cover; /*added the blur effect from here to the info item*/
+  background: url('jcm.jpg') no-repeat center center/cover; /*added the blur effect from here to the info item*/
   position: relative;
   color: #fff;
   text-align: center;
