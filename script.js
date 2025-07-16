@@ -104,3 +104,11 @@ function scrollToProducts() {
   var productsSection = document.getElementById('products');
   productsSection.scrollIntoView({ behavior: 'smooth' });
 }
+
+//Certification
+function toggleDetail(button) {
+  const details = button.nextElementSibling;
+  details.style.display = details.style.display === 'block' ? 'none' : 'block';
+  button.textContent = details.style.display === 'block' ? 'Hide Details' : 'View Details';
+}
+
